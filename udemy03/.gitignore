@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+[submodule "React"]
+    path = React
+    url = https://github.com/example/React.git
+
