@@ -172,6 +172,10 @@ function App()
 2. Short <>...</>
 ```
 
+# Chapter 03
+
+### Revision Javascript
+
 ## 19. Map Method
 
 1. `Purpose` : Render lists from array dat.
@@ -179,14 +183,34 @@ function App()
 3. `Inline Rendering` : Directly inside JSX
 
 ```
-{weekDays.map((item) => 
+{weekDays.map((item) =>
    <li key = {item} className="list-group-item">{item}</li>
 )}
 ```
 
 4. `Key Prop` : Assign unique key to optimized re-renders.
+
 ```
 <div key = {item.id} > {item.name} </div>
 ```
 
 ![alt text](image-2.png)
+
+## 20. Conditional Rendering
+
+`Conditional Rendering`
+
+- Displaying content based on certain condition.
+- Allows for dynamic user interface.
+
+`Method`
+
+- `if-else statement` : Choose between two blocks of content.
+- `Ternary Operators` : Quick way to choose between two options.
+- `Logical Operators` : Useful for rendering content when a condition is true.
+
+`Benefits`
+
+- Enchances user experience.
+- Reduces unnecessary rendering
+- Makes apps more interactive and responsive.
