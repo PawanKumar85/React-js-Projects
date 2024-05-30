@@ -1,4 +1,4 @@
-function List({itemname,date,btnName})
+function List({itemname,date})
 {
     return(
         <div className="row todo-row">
@@ -10,7 +10,7 @@ function List({itemname,date,btnName})
           </div>
           <div className="col-2">
             <button type="button" class="btn btn-danger todo-button">
-              {btnName}
+              Delete
             </button>
           </div>
         </div>
