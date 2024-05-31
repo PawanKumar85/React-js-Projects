@@ -214,3 +214,42 @@ function App()
 - Enchances user experience.
 - Reduces unnecessary rendering
 - Makes apps more interactive and responsive.
+
+## 21. Passing data via props
+
+`Props in React`
+
+- Short for properties.
+- Mechanism for passing data.
+- Read-only bt default
+
+`Usage`
+
+- Pass data from parent to child components.
+- Makes components reusable.
+- Defined as attributes in JSX.
+
+`Key Points`
+
+- Data flows on-way (downwards).
+- Props are immutable.
+- Used for communication between components.
+
+`Examples`:
+
+```
+<Header title = "My App"/>
+```
+
+## 22. CSS Modules
+
+1. `Localized` class named to avoid global conflicts.
+2. `Styles` are scoped to individual components.
+3. `Helps` in creating component-specific styles.
+4. `Automatically` generates unique class name.
+   5 `Promotes` modular and maintainable CSS.
+5. Can use alongside global CSS when needed.
+
+```
+Each components have its own separate CSS file
+```
