@@ -1,3 +1,5 @@
+import Container from "./Components/Container";
+
 function App() {
   const weekDays = [
     "Monday",
@@ -13,14 +15,19 @@ function App() {
   else
     return (
       <>
-        <h1>Days</h1>
+      <Container>
+        <h1 className="text-center">Days</h1>
         <ol className="list-group">
           {weekDays.map((item) => (
-            <li key={item} className="list-group-item">
+            <li key={item} className="list-group-item text-danger">
               {item}
             </li>
           ))}
         </ol>
+      </Container>
+      <Container>
+        <p className="fw-bold">These are the list of days in a week</p>
+      </Container>
       </>
     );
 }
