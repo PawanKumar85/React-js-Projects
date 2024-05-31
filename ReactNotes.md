@@ -253,3 +253,16 @@ function App()
 ```
 Each components have its own separate CSS file
 ```
+
+## 23. Passing Children
+
+1. Children is a special prop for passing elements into components.
+2. Used for flexible and reuable components designs.
+3. Comman in layout or container components.
+4. Assessed with `props.children`
+5. Can be any content: strings,numbers,JSX or components.
+6. Enhances components composabilty and reusabilty.
+##
+![alt text](image-3.png)
+##
+![alt text](image-4.png)
